@@ -8,6 +8,7 @@ class App extends React.Component {
     state = {
         city: "",
         temp: "",
+        id: "",
         favCities: []
     };
 
@@ -24,7 +25,8 @@ class App extends React.Component {
         } else {
             this.setState({
                 city: data.name,
-                temp: data.main.temp
+                temp: data.main.temp,
+                id: data.id
             });
         }
     };
@@ -33,9 +35,14 @@ class App extends React.Component {
         this.setState({
             favCities: this.state.favCities.concat({
                 city: this.state.city,
-                temp: this.state.temp
+                temp: this.state.temp,
+                id: this.state.id
             })
         });
+    };
+
+    handleDelete = () => {
+        console.log("remove this ");
     };
 
     render() {
@@ -55,8 +62,12 @@ class App extends React.Component {
                     <div className="footer">
                         {this.state.favCities.map(item => {
                             return (
-                                <div className="temp-card-2">
-                                    <h4 key={item.city}>{item.city}</h4>
+                                <div
+                                    onClick={this.handleDelete}
+                                    key={item.id}
+                                    className="temp-card-2"
+                                >
+                                    <h4>{item.city}</h4>
                                     <h5>{item.temp}</h5>
                                 </div>
                             );

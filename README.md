@@ -1,6 +1,7 @@
 # Weather App
 
 A simple app to find out a given citys temperature.
+Click on the city name/ temperature to save to favourites.
 
 ## Getting Started
 

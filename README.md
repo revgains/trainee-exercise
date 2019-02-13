@@ -21,23 +21,6 @@ You will need to have openweathermap account / API key.
 use npm test to test api connection.
 
 
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
 
 
 

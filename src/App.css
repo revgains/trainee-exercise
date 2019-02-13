@@ -1,93 +1,96 @@
 .App {
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  background: lightgray;
-  height: 100vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background: lightgray;
+    height: 100vh;
 }
 
 .temp-form {
-  margin: auto;
-  border-top-left-radius: 24px;
-  border-bottom-left-radius: 24px;
-  border-style: none;
-  height: 48px;
-  padding-left: 24px;
+    margin: auto;
+    border-top-left-radius: 24px;
+    border-bottom-left-radius: 24px;
+    border-style: none;
+    height: 48px;
+    padding-left: 24px;
 }
 
 .form-btn {
-  border-style: none;
-  border-top-right-radius: 24px;
-  border-bottom-right-radius: 24px;
-  height: 50px;
-  background-color: orange;
-  color: white;
-  font-weight: 800;
-  padding-left: 16px;
-  padding-right: 16px;
+    border-style: none;
+    border-top-right-radius: 24px;
+    border-bottom-right-radius: 24px;
+    height: 50px;
+    background-color: orange;
+    color: white;
+    font-weight: 800;
+    padding-left: 16px;
+    padding-right: 16px;
 }
 
 .form-btn:hover {
-  cursor: pointer;
-  background-color: rgb(255, 145, 0);
+    cursor: pointer;
+    background-color: rgb(255, 145, 0);
 }
 
 .temp-card {
-  padding: 8px;
+    padding: 8px;
 }
 
 .temp-card h1 {
-  font-size: 100px;
-  margin: 0px;
+    font-size: 100px;
+    margin: 0px;
 }
 
 .temp-card h1:hover {
-  cursor: pointer;
+    cursor: pointer;
 }
 
 .temp-card h3 {
-  font-size: 64px;
-  margin: 0px;
+    font-size: 64px;
+    margin: 0px;
 }
 
 .temp-card h3:hover {
-  cursor: pointer;
+    cursor: pointer;
 }
 
 .temp-card-child  {
-  margin: auto;
+    margin: auto;
 }
 
 .footer {
-  display: flex;
-  flex-direction: row;
-  justify-items: left;
+    display: flex;
+    flex-direction: row;
+    justify-items: left;
 }
 
 .footer_child {
-  margin-right: 8px;
+    margin-right: 8px;
 }
 
 .footer-child h5 {
-  margin-top: 0px;
+    margin-top: 0px;
 }
 
 .App-header {
-  background-image: linear-gradient(dodgerblue, deepskyblue);
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-evenly;
-  font-size: calc(10px + 2vmin);
-  color: white;
+    background-image: linear-gradient(dodgerblue, deepskyblue);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: calc(10px + 2vmin);
+    color: white;
 }
 
 .App-link {
-  color: #61dafb;
+    color: #61dafb;
 }
 
 .temp-card-2 {
-  padding: 8px;
-  margin-top: 8px;
+    padding: 8px;
+    margin-top: 8px;
+    background: rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    margin-right: 8px;
 }
